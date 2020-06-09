@@ -19,7 +19,7 @@ Les images se trouvent dans le répertoire /images.
 
 ### Installation des packages avec npm
 
-1. Via le terminal, installer les dépendances du package.json  à l'aide de la commande adéquate
+1. Via le terminal, installer les dépendances du package.json à l'aide de la commande adéquate
 
 2. Puis, installer les packages suivants et les déclarer aux endroits indiqués dans index.html  :
 
@@ -28,14 +28,28 @@ Les images se trouvent dans le répertoire /images.
     
 ### Utilisation du framework Tailwind CSS
 
+Il est recommandé de prendre connaissance du fonctionnement général de Tailwind : https://tailwindcss.com/
+
+Pour cet exercice, l'utilisation des classes Tailwind directement dans le fichier index.html est à préconiser (approche utilitaire) : https://tailwindcss.com/docs/utility-first
+
+Pour appliquer des styles de base aux éléments (titres, liens, texte...), le fichier à modifier est tailwind.css. Le fichier style.css sert de "sortie" après la compilation du CSS et ne doit pas être modifié. https://tailwindcss.com/docs/adding-base-styles
+
+#### Configuration
+
 Tailwind est déjà installé et prêt à fonctionner.
 
-Vous devrez configurer vous même la palette de couleurs dans le fichier tailwing.config.js 
+Vous devrez configurer vous même la palette de couleurs dans le fichier tailwind.config.js
 
-Voici la liste des couleurs à utiliser :
+Voici la liste des couleurs à implémenter :
 - Bleu : #277DF4
 - Jaune : #F4BA3C
 - Vert : #6FC854
 - La palette de gris par défaut de Tailwind
 
-Lien vers la documentation : https://tailwindcss.com/
+Support pour la customisation des couleurs : https://tailwindcss.com/docs/customizing-colors
+
+Note : penser à compiler après chaque modification du fichier tailwind.css ou tailwind.config.js.
+
+#### Compilation
+
+Pour fonctionner, le CSS devra être compilé. Pour cela, vous lancerez le script "build" présent dans le fichier package.json.
