@@ -14,6 +14,9 @@ Facultatif :
 
 ## Informations utiles
 
+La maquette se trouve dans le répertoire /src.
+Les images se trouvent dans le répertoire /images.
+
 ### Installation des packages avec npm
 
 1. Via le terminal, installer les dépendances du package.json  à l'aide de la commande adéquate
