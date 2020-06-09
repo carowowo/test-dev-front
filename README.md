@@ -4,5 +4,5 @@
 - fontawesome-free
 - slick-carousel
 
-## Les déclarer aux endroits indiqués dans index.html
+Les déclarer aux endroits indiqués dans index.html
 
